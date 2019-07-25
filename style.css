@@ -3,36 +3,74 @@
     padding: 0;
 }
 body{
+    
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     background: #1a7951; 
     background: -webkit-linear-gradient(to right, #0f3443, #1a7951); 
     background: linear-gradient(to right, #0f3443, #1a7951); 
     color: rgba(255, 255, 255, 0.712);
+    text-align: center;
+    margin-top: 50px;
 
 }
-.players{
-    
-    text-align: center;
-    padding: 10px;
-    
-    
+
+@media only screen and (max-width: 600px){
+    body{
+        background: #1a7951; 
+    }
+    .players{
+        width: 500px;
+        margin: 0 auto;
+    }
 }
-h1{
-    margin-bottom: 30px;
+
+.players{
+    margin: 0 auto;
+}
+
+/*-------------HEADER-----------*/
+/*-------------HEADER-----------*/
+/*-------------HEADER-----------*/
+
+
+h1, h3{
+    
     color: rgb(196, 240, 214);
     letter-spacing: 10px;
     text-transform: uppercase;
 }
 
-
-
-.players input{
-    padding: 0 auto;
+h3{
+    color: rgb(77, 158, 111);   
 }
 
 
-input[type='submit']{
+/*-------------INPUT NAMES-----------*/
+/*-------------INPUT NAMES-----------*/
+/*-------------INPUT NAMES-----------*/
+
+
+input[type='text']{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 5px 10px;
+    background: #f5f5f5;
+    margin-top: 20px;
+    
+}
+
+input[type='text']:focus{
+    background: rgb(196, 240, 214);
+}
+
+
+/*-------------BUTTON-----------*/
+/*-------------BUTTON-----------*/
+/*-------------BUTTON-----------*/
+
+button{
     display: block;
     margin: 30px auto 0 auto;
     padding: 10px 20px;
@@ -45,53 +83,37 @@ input[type='submit']{
     color: black;
     text-transform: uppercase;
     transition: all .2s;
-}
-
-input[type='submit']:hover{
-    transform: translateY(-2px);
-    box-shadow: 0 3px 8px #333333;
-}
-input[type='submit']:active{
-    transform: translateY(0);
-    box-shadow: 0 1px 8px #4b4b4b;
-}
-textarea{
-    resize: none;
-    background: #f5f5f5;
-    outline: none;
-}
-
-textarea:focus{
-    background: rgb(196, 240, 214);
-}
-
-
-
-
-input[type='text']{
-    border: none;
-    outline: none;
-    border-radius: 30px;
-    padding: 5px 10px;
-    background: #f5f5f5;
     
 }
 
-input[type='text']:focus{
-    background: rgb(196, 240, 214);
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 3px 8px #333333;
+}
+button:active{
+    transform: translateY(0);
+    box-shadow: 0 1px 8px #4b4b4b;
+}
+.btn{
+    width: min-content;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    
+    
 }
 
 
+/*-------------TABLE LAYOUT-----------*/
+/*-------------TABLE LAYOUT-----------*/
+/*-------------TABLE LAYOUT-----------*/
 
 
-/*-------------TABLE LAYOUT-----------*/
-/*-------------TABLE LAYOUT-----------*/
-/*-------------TABLE LAYOUT-----------*/
 table{
     border-collapse: collapse;
-    margin: 50px auto;
-    /* background: linear-gradient(to bottom, rgba(6, 52, 73, 0.5), rgba(255, 255, 255, 0.5));   */
-    background: rgba(253, 253, 253, 0.144);
+    margin: 30px auto;
     box-shadow: 0 0 20px black;
     
 }
@@ -99,15 +121,16 @@ th, td{
     position: relative;
     padding: 25px;
     border: 1px solid rgba(12, 63, 19, 0.623);
-    text-align: center;
-    
-    
+    text-align: center;  
 }
 tr{
     font-weight: 700;
 }
 th{
     text-transform: uppercase;
+   
+    
+    padding: 10px;
 }
 
 
@@ -115,6 +138,8 @@ th{
 /*-------------ICONS-----------*/
 /*-------------ICONS-----------*/
 /*-------------ICONS-----------*/
+
+
 .icon {
     width: 20px;
     height: 20px;
@@ -124,37 +149,33 @@ th{
     color: red;
 }
 
-/*-------------CHECKBOX-----------*/
-/*-------------CHECKBOX-----------*/
-/*-------------CHECKBOX-----------*/
-label{
-    cursor: pointer;
-    position: absolute;
-    top: 2px;
-    right: 2px;
-  }
-input[type="checkbox"]{
-    position: absolute;
-    height: 0;
-    width: 0;
-    opacity: 0;
+
+/*-------------NUMBER INPUTS-----------*/
+/*-------------NUMBER INPUTS-----------*/
+/*-------------NUMBER INPUTS-----------*/
+
+
+input[type='number']{
+    width: 40px;
 }
-.checkmark {
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.box{
     position: absolute;
     top: 2px;
     right: 2px;
-    height: 15px;
     width: 15px;
+    height: 15px;
     background-color: rgb(56, 204, 56);
-    opacity: 1;
+    cursor: pointer;
 }
-.checkmark:hover{
+
+.boxRed{
     background-color: red;
 }
-input[type='checkbox']:checked ~ .checkmark {
-    background-color: red;
-}
-
-
-
 

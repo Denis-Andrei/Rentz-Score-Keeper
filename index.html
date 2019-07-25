@@ -10,17 +10,20 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"> -->
     
-    <title>Document</title>
+    <title>Rentz | Score Keeper</title>
 </head>
 <body>
     
     <div class="players">
-        <h1>Introduce players name</h1>
-        <input id ="1"  type="text" placeholder="Player 1">
-        <input id ="2"  type="text" placeholder="Player 2">
-        <input id ="3"  type="text" placeholder="Player 3">
-        <input id ="4"  type="text" placeholder="Player 4">
-        <input type="submit" value="Enter">
+        <h1>Rentz (card game)</h1>
+        <h3>Score Keeper</h3>
+        <input class="a" id ="1"  type="text" placeholder="Player 1" maxlength="10">
+        <input class="a" id ="2"  type="text" placeholder="Player 2" maxlength="10">
+        <input class="a" id ="3"  type="text" placeholder="Player 3" maxlength="10">
+        <input class="a" id ="4"  type="text" placeholder="Player 4" maxlength="10">
+        <div class="btn">
+        <a href="https://en.wikipedia.org/wiki/Rentz_(card_game)"><Button>RULES</Button></a>
+        </div>
         
     </div>
 
@@ -30,287 +33,215 @@
     <table>
         <tr>
             <th></th>
-            <th class="playersName" >Player1</th>
-            <th class="playersName">Player2</th>
-            <th class="playersName">Player3</th>
-            <th class="playersName">Player4</th>
+            <th class="playersName">Player 1</th>
+            <th class="playersName">Player 2</th>
+            <th class="playersName">Player 3</th>
+            <th class="playersName">Player 4</th>
         </tr>
 
         <tr>
             <td>K <i class="fa fa-heart"></i></td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player1">
+                <input type="number" class="qwe" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player2">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player3">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player4">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
         </tr>
         <tr>
             <td>Q</td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player1">
+                <input type="number" class="asd" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
                 
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player2">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player3">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player4">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
         </tr>
         <tr>
             <td><svg class="icon"><use xlink:href="sprite.svg#icon-diamonds"></use></svg></td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player1">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player2">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player3">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player4">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
         </tr>
 
         <tr>
             <td>T+</td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player1">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player2">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player3">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player4">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
         </tr>
 
         <tr>
             <td>T-</td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player1">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player2">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player3">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player4">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
         </tr>
 
         <tr>
             <td>Rentz</td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player1">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player2">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player3">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
-            <td>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <textarea name="" id="" cols="5" rows="1" maxlength="6"></textarea>
-                <label>
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+            <td class="player4">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <input type="number" maxlength="6">
+                <div  class="box"></div>
             </td>
         </tr>
         <tr>
             <td>TOTAL</td>
-            <td>
-                
+            <td class="playerResult1">
+                0
             </td>
-            <td>
-                
+            <td class="playerResult2">
+                0
             </td>
-            <td>
-                
+            <td class="playerResult3">
+                0
             </td>
-            <td>
-                
+            <td class="playerResult4">
+                0
             </td>
         </tr>
         
